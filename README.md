@@ -34,18 +34,29 @@ _ _ _
 
 ### 0.Latest
 
-[迁移学习文章 Awesome transfer learning papers](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
+[迁移学习文章汇总 Awesome transfer learning papers](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 
-- 20180410 ICLR-17 第一篇用可变RNN进行多维时间序列迁移的文章：[Variational Recurrent Adversarial Deep Domain Adaptation](https://openreview.net/forum?id=rk9eAFcxg&noteId=SJN7BGyPl)
-- 20180410 CVPR-18(oral) 用两个分类器进行对抗迁移：[Maximum Classifier Discrepancy for Unsupervised Domain Adaptation](https://arxiv.org/abs/1712.02560) [代码](https://github.com/mil-tokyo/MCD_DA)
-- 20180410 arXiv 用迁移学习进行犯罪现场的图像匹配：[Cross-Domain Image Matching with Deep Feature Maps](https://arxiv.org/abs/1804.02367)
-- 20180408 ASRU-18 用迁移学习中的domain separation network进行speech recognition：[Unsupervised Adaptation with Domain Separation Networks for Robust Speech Recognition](https://arxiv.org/abs/1711.08010)
-- 20180408 arXiv 小数据集上的迁移学习手写体识别：[Boosting Handwriting Text Recognition in Small Databases with Transfer Learning](https://arxiv.org/abs/1804.01527)
-- 20180404 IEEE TETCI-18 用迁移学习来玩星际争霸游戏：[StarCraft Micromanagement with Reinforcement Learning and Curriculum Transfer Learning](https://arxiv.org/abs/1804.00810)
-- 20180404 arXiv 用迁移学习进行物体检测：[Transferring Common-Sense Knowledge for Object Detection](https://arxiv.org/abs/1804.01077)
-- 20180403 arXiv 本地和云端CNN迁移融合的图片分类：[Hierarchical Transfer Convolutional Neural Networks for Image Classification](https://arxiv.org/abs/1804.00021)
+- **arXiv专区** (arXiv上的文章较新，但未经过peer-review，慎重看待)
 
-[更多...](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
+	- 20180424 arXiv 不同的MRI设备所带来的模型漂移问题用迁移学习方法来解决：[MR Acquisition-Invariant Representation Learning](https://arxiv.org/abs/1709.07944)
+
+	- 20180424 arXiv 迁移学习与课程学习(curriculum learning)结合进行了一些深度方面的探索：[Curriculum Learning by Transfer Learning: Theory and Experiments with Deep Networks](https://arxiv.org/abs/1802.03796)
+
+	- 20180424 arXiv 跨领域推荐，来自杨强团队：[CoNet: Collaborative Cross Networks for Cross-Domain Recommendation](https://arxiv.org/abs/1804.06769)
+
+	- 20180424 arXiv 跨领域对话策略迁移，来自杨强团队：[Cross-domain Dialogue Policy Transfer via Simultaneous Speech-act and Slot Alignment](https://arxiv.org/abs/1804.07691)
+
+	- 20180421 arXiv 采用联合分布适配的深度迁移网络用于工业生产中的错误诊断：[Deep Transfer Network with Joint Distribution Adaptation: A New Intelligent Fault Diagnosis Framework for Industry Application](https://arxiv.org/abs/1804.07265)
+
+
+- **最新发表论文**
+
+	- 20180424 CVPR-18 用GAN和迁移学习进行图像增强：[Adversarial Feature Augmentation for Unsupervised Domain Adaptation](https://arxiv.org/pdf/1711.08561.pdf)
+
+	- 20180413 NIPS-17 基于后继特征迁移的强化学习：[Successor Features for Transfer in Reinforcement Learning](https://arxiv.org/abs/1606.05312)
+
+
+[**更多...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 
 - - -
 
@@ -122,6 +133,7 @@ Related articles by research areas:
 	- 理论研究方面，重点关注Alex Smola、Ben-David、Bernhard Schölkopf、Arthur Gretton等人的研究即可。
 
 - 较新的综述：
+	- 20180419 arXiv Neural style transfer的一个survey：[Neural Style Transfer: A Review](https://arxiv.org/abs/1705.04058)
 	- 2018 arXiv 最新发表在arXiv上的深度domain adaptation的综述：[Deep Visual Domain Adaptation: A Survey](https://arxiv.org/abs/1802.03601)
 	- 2017 多任务学习的综述，来自香港科技大学杨强团队：[A survey on multi-task learning](https://arxiv.org/abs/1707.08114)
 	- 2017 异构迁移学习的综述：[A survey on heterogeneous transfer learning](https://link.springer.com/article/10.1186/s40537-017-0089-0)
